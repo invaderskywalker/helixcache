@@ -20,16 +20,16 @@ func (c *Cache) Set(key string, val []byte) error {
 	return nil
 }
 
-func (c *Cache) Get(key string) ([]byte, error) {
+func (c *Cache) Get(key string) ([]byte, bool) {
 	c.mu.Lock()
 	defer c.mu.Unlock()
-	// @TODO: how to check if key exists in c.store
-	return c.store[key], nil
+	val, ok := c.store[key]
+	return val, ok
 }
 
 func (c *Cache) Delete(key string) error {
 	c.mu.Lock()
 	defer c.mu.Unlock()
-	c.store[key] = nil
+	delete(c.store, key)
 	return nil
 }

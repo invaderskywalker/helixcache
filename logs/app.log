@@ -1,5 +1,0 @@
-{"level":"info","timestamp":"2025-11-25T22:59:13.022+0530","msg":"Astra CLI: Connecting in directory","dir":"/Users/abhishekkumar/Documents/projects/learn_go/helixcache"}
-{"level":"info","timestamp":"2025-11-25T22:59:13.181+0530","msg":"Created new Astra CLI user","username":"/Users/abhishekkumar/Documents/projects/learn_go/helixcache"}
-{"level":"info","timestamp":"2025-11-25T22:59:13.182+0530","msg":"📘 Loaded Agent Config","path":"/Users/abhishekkumar/Documents/projects/llm_apps/astra_go/astra/agents/configs/agents/astra.yaml"}
-{"level":"info","timestamp":"2025-11-25T22:59:13.184+0530","msg":"BaseAgent initialized","user_id":8,"agent_name":"astra"}
-{"level":"info","timestamp":"2025-11-25T22:59:13.184+0530","msg":"Astra agent initialized in CLI","dir":"/Users/abhishekkumar/Documents/projects/learn_go/helixcache","userID":8,"sessionID":"cli-ce4d31e3-c364-413e-be28-0817796d4525"}
