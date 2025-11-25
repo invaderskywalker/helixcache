@@ -3,7 +3,7 @@ package cache
 import "go.uber.org/zap"
 
 type ICache interface {
-	Set(key string, val []byte) error
+	Set(key string, val []byte, ttlMillis int64) error
 	Get(key string) ([]byte, bool)
 	Delete(key string) error
 }
