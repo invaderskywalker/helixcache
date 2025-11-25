@@ -6,4 +6,6 @@ curl "http://localhost:8080/get?key=foo"
 curl "http://localhost:8080/del?key=foo"
 
 go run ./helix/cmd/server  
+go run ./helix/cmd/client
+
 go build -o helix-server ./helix/cmd/server
